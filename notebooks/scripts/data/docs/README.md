@@ -1,19 +1,15 @@
-# Proyecto de ETL y ML
+# The Human Sleep Project (HSP)
 
-## Descripción
+Este proyecto se basa en el análisis de un conjunto de datos de fisiología del sueño recogido por el Human Sleep Project (HSP). El objetivo es desarrollar un modelo de aprendizaje automático que pueda identificar anotaciones en los registros de PSG.
 
-Este proyecto realiza un proceso de ETL para transformar los datos y luego entrena y evalúa un modelo de aprendizaje automático.
+## Estructura del Proyecto
 
-## Estructura del Repositorio
+- **notebooks/**: Contiene el notebook para la exploración de los datos.
+- **scripts/**: Contiene los scripts para la extracción, transformación, carga de datos (ETL) y para el entrenamiento de modelos de ML.
+- **data/**: Carpeta donde se encuentran los datos crudos y transformados.
+- **docs/**: Documentación del proyecto.
 
-- `notebooks/`: Exploración de datos.
-- `scripts/`: Código fuente del proyecto.
-- `data/`: Datos brutos y transformados.
-- `docs/`: Documentación adicional.
-- `README.md`: Este documento.
+## Cómo ejecutar el proyecto
 
-## Uso
-
-1. Coloca los datos brutos en la carpeta `data/`.
-2. Ejecuta el script principal `main.py`.
-3. Los resultados del modelo se imprimirán en la consola.
+1. Ejecuta el script `main.py` para realizar el proceso completo de ETL y ML.
+2. Revisa los resultados en la consola y en los archivos generados.
